@@ -1,0 +1,32 @@
+.item{
+    width: 100%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+    margin-bottom: 20px;
+    padding: 1.3rem;
+}
+
+.online{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+}
+
+.offline{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}
+
+.avatar{
+    display: block;
+    margin: 0 auto;
+}
+
+.name{
+    justify-content: center;
+}
